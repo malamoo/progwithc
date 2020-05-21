@@ -1,9 +1,8 @@
-/* Replace each C99-style comment in the input text by an equivalent
+/* Replace each C99-style comment in the input text with an equivalent
 ANSI C comment. 
 */
 
 #include <stdio.h>
-#include <stdlib.h>
 
 int main(int argc, char const *argv[])
 {

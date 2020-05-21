@@ -32,7 +32,6 @@ int main(int argc, char const *argv[])
         if (isprime == 1)
         {
             printf("The next prime is     : %d\n", n);
-            break;
         }
     } while (isprime == 0);
 

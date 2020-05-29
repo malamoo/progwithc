@@ -104,16 +104,21 @@ i=0, j=7
 
 ## 4.2
 
-For all statements S and for all integer-valued expressions *p*, the following *do* and *while* loops are equivalent:
+For some statements S and for some integer-valued expressions *p*,
+the following *do* and *while* loops are equivalent:
 
-```sh
+```c
 do
-    S
-while (p)
+{
+    S;
+}
+while (p);
 ```
 
-```sh
-S
+```c
+S;
 while (p)  
-    S
+{
+    S;
+}
 ```
